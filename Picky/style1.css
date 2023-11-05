@@ -10,6 +10,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #222;
   padding-bottom: 50px;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -45,8 +46,9 @@ body {
   color: #fff;
   text-decoration: none;
   padding: 7px 15px;
-  transition: all 0.3s ease-in-out;
+  transition: all 1s ease;
 }
+
 
 .nav.active {
   background-color: #fff;
@@ -65,13 +67,59 @@ body {
 .nav a:hover {
   color: #c0392b;
   font-weight: bold;
+  transform: translateY(10px);
 }
 
-.hero {
+.landing{
+  display: flex;
   background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  height: 100vh;
+  width:100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing .topic .red{
+  font-size: 66px;
+  margin-top: 15vh;
+  font-family: sans-serif;
+  transition: all 1s ease;
+  cursor: pointer;
+  color:red;
+  text-shadow: rgb(15, 0, 0) 1px 1px 10px;
+}
+
+.landing .topic .red:hover{
+  text-shadow: rgb(97, 95, 95) 1px 1px 1px,
+  rgb(51, 51, 51) 1.1px 1px 3px,
+  rgb(31,31, 31) 1.3px 1px 3px,
+  rgb(15, 0, 0) 1.5px 1px 3px,
+  rgb(0, 0, 0) 1.7px 1px 4px;
+}
+
+.landing .topic {
+  background: #4d484881;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+
+  font-size: 66px;
+  color:#fff;
+  margin-top: 15vh;
+  font-family: sans-serif;
+  text-shadow: rgb(15, 0, 0) 1px 1px 10px;
+}
+
+.hero {
+  /* background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background: linear-gradient(45deg , red , white  , black);
+  /* background-position: center center; */
   height: 100vh;
   width:100vw;
   color: #fff;
@@ -189,7 +237,9 @@ body {
   width: 100%;
   padding: 1rem;
   transition: transform var(--d) var(--e);
+  transition :all 1s ease;
   z-index: 1;
+  cursor: pointer;
 }
 .content > * + * {
   margin-top: 1rem;
