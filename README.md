@@ -31,4 +31,4 @@ In the modern educational landscape, students face numerous challenges in their 
     <img src="https://skillicons.dev/icons?i=git,html,css,js" />
   </a>
 </p>
-
+<h1>Thank you!</h1>
