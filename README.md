@@ -1,11 +1,19 @@
 <h1 align = "center">"StudentSphere": Your All-in-One Student Toolkit</h1>
 <p>StudentSphere is designed to be a student's go-to resource for streamlining their academic journey, improving productivity, and enhancing their overall learning experience. It's the ultimate academic companion, offering a wide range of benefits to support students in their educational endeavors.</p>
 
-<h2>Problem Statement</h2>
+<h2>Team details</h2>
+<ul>
+  <li>Kajal Lanjhiyana</li>
+  <li>Priyanka</li>
+  <li>Shreya Singh</li>
+</ul>
+<a href = "https://www.canva.com/design/DAFzQUBLqEw/NGO2vqhqA_KHW_lbM9kvHg/editutm_content=DAFzQUBLqEw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Presentation</a>
+
+<h2 align = "center">Problem Statement</h2>
 
 In the modern educational landscape, students face numerous challenges in their pursuit of academic excellence. Despite the wealth of online resources available, the fragmentation of tools and the lack of an integrated solution hinders their learning experience. The following issues are prevalent: <br/>
 
-<h2 >Solution/product brief</h2>
+<h2 align = "center">Solution/product brief</h2>
 
 <b>Tool Fragmentation: </b> Students rely on various apps and platforms for note-taking, problem-solving, time management, and collaborative work. This leads to confusion and inefficiency as they frequently switch between different tools.
 
@@ -17,11 +25,9 @@ In the modern educational landscape, students face numerous challenges in their 
 
 <b>Financial Burden:</b> Many students face financial constraints and may not afford costly software solutions or resources that could significantly aid their learning experience.
 
-<h2>Team details</h2>
-<ul>
-  <li>Kajal Lanjhiyana</li>
-  <li>Priyanka</li>
-  <li>Shreya< Singh</li>
-</ul>
-
-<a href = "">Presentation</a>
+<h2 align="center">Technology Stack:-</h2>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,html,css,js" />
+  </a>
+</p>
